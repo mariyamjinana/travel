@@ -1,0 +1,357 @@
+*{
+    font-family: "Mulish", sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --x:#86B817
+}
+#navhead{
+    color: var(--x);
+    font-size:35px;  
+    margin-right: 35%; 
+    margin-bottom: 2%; 
+   
+}
+.nav-item{
+    margin: 0 5%;
+}
+.nav-item a {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color: var(--x);
+   
+}
+#regbutton{
+  background-color: var(--x);
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+ 
+}
+#regbutton:hover{
+    background-color:white ;
+    color: var(--x);
+}
+
+#main{
+    background-image: url('./images/bg-hero.jpg');
+    width: 100%;
+   height: 650px;
+    margin: 0px;
+    
+    
+}
+
+#bg{
+    background-color: rgba(0, 0, 0, 0.637);
+     height: 650px;
+      width: 100%;
+      
+}  
+#navpara{
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+  
+}
+#button-addon2{
+   background-color: var(--x);
+   height: 50px;
+   width: 120px;
+   border-radius: 6px;
+   margin-right: 15%;
+}
+
+
+/* second main */
+
+
+#about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about img{
+    height: 450px;
+    width: 100%;
+}
+
+#about h6{
+    color: var(--x);
+    font-weight: bold;
+    font-size: small;
+}
+#aboutdiv1{
+    width: 50px;
+    height: 3px;
+    border: 1px solid var(--x);
+    background-color: var(--x);
+}
+#aboutdiv2{
+    width: 70px;
+    height: 3px;
+    border: 1px solid var(--x);
+    background-color: var(--x);
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+#about h2{
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 2%;
+}
+#about span{
+    color: var(--x);
+}
+#rmbutton{
+        background-color: var(--x);
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+}
+#rmbutton:hover{
+    font-size: 18px;
+        font-weight: 750;
+}
+
+@media  (max-width: 992px) {
+
+    #main {
+      margin:0px;
+      padding: 0px;
+    }
+    #about img{
+        margin-bottom: 5%;
+    }
+    p{
+        font-size: 65%;
+    }
+    
+  }
+  
+
+
+
+/* services */
+#services h2{
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 2%;
+}
+#services .card i{
+    margin: 8% 0 0 8%;
+    color: var(--x);
+}
+
+#services .card-title{
+    font-weight: 1000;
+    font-size: 20px;
+}
+#services .card:hover{
+    background-color: var(--x);
+    color: white;
+}
+#services .card:hover i{
+    color: white;
+}
+
+/* destinations */
+#destinations{
+    margin-top: 12%;
+}
+#destinations h2{
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 2%;
+}
+
+#destinations img {
+    transition: .5s;
+}
+
+#destinations a:hover img {
+    transform: scale(1.1);
+}
+
+
+/* packages */
+
+#packages{
+    margin-top: 10%;
+}
+#packages h2{
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 2%;
+}
+#packages .card-div{
+    padding: 4%;
+    
+    justify-content: space-between;
+}
+#packages .card-title{
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--x);
+   margin-left: 25%;
+   margin-top: 3%;
+}
+.rating{
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
+
+#packages button{
+    padding: 3%;
+    background-color: var(--x);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+#packages button:hover{
+    background-color: #60860c;
+}
+#packages img {
+    transition: .5s;
+}
+#packages img:hover{
+    transform: scaleY(1.09);
+}
+
+
+/* booking */
+#booking{
+    margin-top: 10%;
+    color: white;
+}
+#bookingbg{
+    background-image: url('./images/booking.jpg');
+    width: 84%;
+    height:550px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 8%;
+    
+    
+}
+#bg1{
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 100%;
+    height:550px ;
+    
+}
+#booking .row{
+    padding: 5%;
+}
+#readmoreBtn{
+    
+   color: white;
+   background-color: #056661;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#readmoreBtn:hover{
+    background-color: #084d49;
+}
+
+/* process */
+#process{
+    margin-top: 10%;
+}
+
+#process h2{
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 2%;
+}
+#process i{
+    background-color: var(--x)
+}
+#processdiv{
+    border: 1px solid var(--x);
+    margin-top: 5%;
+}
+
+/* guide */
+#guide{
+    margin-top: 10%;
+}
+#guide h2{
+   
+        font-size: 50px;
+        font-weight: 850;
+        margin-bottom: 2%;
+}
+#guide a{
+    background-color: var(--x);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+#guide a:hover{
+    background-color: #5a8303;
+   
+}
+#guide img {
+    transition: .5s;
+}
+#guide img:hover{
+    transform: scaleY(1.09);
+}
+/* testimonial */
+#testimonial{
+    margin-top: 10%;
+}
+#testimonial h2{
+   
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 2%;
+}
+#testimonial img{
+    height: 250px;
+    width: 100%;
+    
+}
+#testimonial img {
+    transition: .5s;
+}
+#testimonial img:hover{
+    transform: scaleY(1.09);
+}
+
+
+/* footer */
+
+footer h4{
+    color: white;
+    margin-top: 25%;
+    font-weight: bold;
+
+}
+footer li {
+    margin-top: 3%;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer p{
+    margin-top: 5%;
+    color: white;
+    margin-left: 9%;
+}
+.fa-brands:hover{
+    background-color:var(--x);
+    
+}
